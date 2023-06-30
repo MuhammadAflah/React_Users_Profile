@@ -29,7 +29,7 @@ const LandingPage = () => {
     return (
         <Grid container sx={{
             height: "100vh",
-            backgroundImage: "url('https://img.freepik.com/premium-vector/abstract-blue-white-wave-background_41084-451.jpg')",
+            backgroundImage: "url('https://wallpaper.dog/large/17209629.jpg')",
             backgroundSize: "cover",
             display: "flex",
             alignItems: "center",
@@ -44,7 +44,9 @@ const LandingPage = () => {
             
         }}>
             <Card sx={{ width: "100%" }}>
-                <CardActionArea>
+                <CardActionArea sx={{
+                    width: "100%"
+                }}>
                     <CardMedia sx={{
                         background: "grey",
                         height: "3rem",
